@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/llm_course/__init__.py
+src/llm_course/backends.py
+src/llm_course/config.py
+src/llm_course.egg-info/PKG-INFO
+src/llm_course.egg-info/SOURCES.txt
+src/llm_course.egg-info/dependency_links.txt
+src/llm_course.egg-info/top_level.txt
