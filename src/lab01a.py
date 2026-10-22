@@ -1,4 +1,6 @@
 from transformers import AutoTokenizer
+from backends import make_backend
+
 
 MODEL_NAME_V1 = "Qwen/Qwen2.5-0.5B-Instruct"
 tokenizer_v1 = AutoTokenizer.from_pretrained(MODEL_NAME_V1)
@@ -6,12 +8,15 @@ MODEL_NAME_V2 = "bert-base-cased"
 tokenizer_v2 = AutoTokenizer.from_pretrained(MODEL_NAME_V2)
 
 samples = [
-    "kot",
+    "kaszalot",
     "nieprzewidywalność",
     "Large language model",
     "Duży model językowy",
     "print('Hello!')",
     "LLM-y 🤖 kosztują 0.01 USD",
+	"Litwo, ojczyzno moja",
+	"Król Karol królowej Karolinie kupił korale koloru koralowego",
+	"Grzegorz Brzęczyszczykiewicz"
 ]
 
 for name, tokenizer in [(MODEL_NAME_V1, tokenizer_v1), (MODEL_NAME_V2, tokenizer_v2)]:
@@ -23,3 +28,4 @@ for name, tokenizer in [(MODEL_NAME_V1, tokenizer_v1), (MODEL_NAME_V2, tokenizer
         print(f"IDS:    {ids}")
         print(f"PIECES: {pieces}")
         print(f"COUNT:  {len(ids)}")
+

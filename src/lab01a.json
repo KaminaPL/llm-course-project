@@ -1,0 +1,94 @@
+
+ Qwen/Qwen2.5-0.5B-Instruct
+
+TEXT:   'kaszalot'
+IDS:    [74, 52340, 278, 354]
+PIECES: ['k', 'asz', 'al', 'ot']
+COUNT:  4
+
+TEXT:   'nieprzewidywalność'
+IDS:    [10810, 649, 95204, 42586, 26397, 71619]
+PIECES: ['nie', 'pr', 'zew', 'idy', 'wal', 'ność']
+COUNT:  6
+
+TEXT:   'Large language model'
+IDS:    [34253, 4128, 1614]
+PIECES: ['Large', ' language', ' model']
+COUNT:  3
+
+TEXT:   'Duży model językowy'
+IDS:    [42074, 27206, 1614, 132938, 36875]
+PIECES: ['Du', 'ży', ' model', ' język', 'owy']
+COUNT:  5
+
+TEXT:   "print('Hello!')"
+IDS:    [1350, 492, 9707, 0, 863]
+PIECES: ['print', "('", 'Hello', '!', "')"]
+COUNT:  5
+
+TEXT:   'LLM-y 🤖 kosztują 0.01 USD'
+IDS:    [4086, 44, 12034, 11162, 97, 244, 40397, 11687, 48078, 220, 15, 13, 15, 16, 19551]
+PIECES: ['LL', 'M', '-y', ' �', '�', '�', ' kos', 'zt', 'ują', ' ', '0', '.', '0', '1', ' USD']
+COUNT:  15
+
+TEXT:   'Litwo, ojczyzno moja'
+IDS:    [68954, 1126, 11, 297, 73, 47772, 89, 2152, 4544, 5580]
+PIECES: ['Lit', 'wo', ',', ' o', 'j', 'czy', 'z', 'no', ' mo', 'ja']
+COUNT:  10
+
+TEXT:   'Król Karol królowej Karolinie kupił korale koloru koralowego'
+IDS:    [81165, 51937, 13225, 337, 137234, 10303, 35468, 13225, 36637, 645, 80708, 130274, 31954, 1574, 595, 789, 84, 595, 9819, 77280]
+PIECES: ['Kr', 'ól', ' Kar', 'ol', ' kró', 'low', 'ej', ' Kar', 'olin', 'ie', ' kup', 'ił', ' kor', 'ale', ' k', 'olor', 'u', ' k', 'oral', 'owego']
+COUNT:  20
+
+TEXT:   'Grzegorz Brzęczyszczykiewicz'
+IDS:    [6464, 89, 791, 67323, 3240, 59605, 13769, 1047, 34968, 4246, 74, 570, 52222]
+PIECES: ['Gr', 'z', 'eg', 'orz', ' Br', 'zę', 'cz', 'ys', 'zc', 'zy', 'k', 'iew', 'icz']
+COUNT:  13
+
+ bert-base-cased
+
+TEXT:   'kaszalot'
+IDS:    [24181, 21529, 20717, 1204]
+PIECES: ['ka', '##sz', '##alo', '##t']
+COUNT:  4
+
+TEXT:   'nieprzewidywalność'
+IDS:    [11437, 8043, 11819, 5773, 25382, 11487, 2728, 28244, 7128]
+PIECES: ['ni', '##ep', '##rz', '##ew', '##idy', '##wal', '##no', '##ś', '##ć']
+COUNT:  9
+
+TEXT:   'Large language model'
+IDS:    [10236, 1846, 2235]
+PIECES: ['Large', 'language', 'model']
+COUNT:  3
+
+TEXT:   'Duży model językowy'
+IDS:    [12786, 28259, 1183, 2235, 179, 28221, 6482, 2718, 17953]
+PIECES: ['Du', '##ż', '##y', 'model', 'j', '##ę', '##zy', '##ko', '##wy']
+COUNT:  9
+
+TEXT:   "print('Hello!')"
+IDS:    [5911, 113, 112, 8667, 106, 112, 114]
+PIECES: ['print', '(', "'", 'Hello', '!', "'", ')']
+COUNT:  7
+
+TEXT:   'LLM-y 🤖 kosztują 0.01 USD'
+IDS:    [12427, 2107, 118, 194, 100, 180, 2155, 1584, 7926, 3361, 28213, 121, 119, 5187, 14180]
+PIECES: ['LL', '##M', '-', 'y', '[UNK]', 'k', '##os', '##z', '##tu', '##j', '##ą', '0', '.', '01', 'USD']
+COUNT:  15
+
+TEXT:   'Litwo, ojczyzno moja'
+IDS:    [5255, 1204, 12821, 117, 184, 3361, 18587, 1183, 1584, 2728, 182, 26840]
+PIECES: ['Li', '##t', '##wo', ',', 'o', '##j', '##cz', '##y', '##z', '##no', 'm', '##oja']
+COUNT:  12
+
+TEXT:   'Król Karol królowej Karolinie kupił korale koloru koralowego'
+IDS:    [148, 1197, 7774, 1233, 14812, 13166, 180, 1197, 7774, 6737, 21024, 14812, 13166, 4729, 1162, 180, 4455, 1182, 20671, 180, 17536, 1162, 180, 12805, 5082, 180, 17536, 4064, 23820]
+PIECES: ['K', '##r', '##ó', '##l', 'Ka', '##rol', 'k', '##r', '##ó', '##low', '##ej', 'Ka', '##rol', '##ini', '##e', 'k', '##up', '##i', '##ł', 'k', '##oral', '##e', 'k', '##olo', '##ru', 'k', '##oral', '##ow', '##ego']
+COUNT:  29
+
+TEXT:   'Grzegorz Brzęczyszczykiewicz'
+IDS:    [144, 11819, 23820, 11819, 139, 11819, 28221, 18587, 6834, 1584, 18587, 17252, 1663, 15428]
+PIECES: ['G', '##rz', '##ego', '##rz', 'B', '##rz', '##ę', '##cz', '##ys', '##z', '##cz', '##yk', '##ie', '##wicz']
+COUNT:  14
